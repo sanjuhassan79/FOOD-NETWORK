@@ -1,0 +1,258 @@
+/*=============== GOOGLE FONTS ===============*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,200&display=swap');
+
+/*=============== BASE ===============*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.25rem;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*=============== HEADER ===============*/
+
+header#header {
+    position: fixed;
+    width: 100%;
+    background: #f9f2f6;
+    padding: 0 7rem;
+    border-bottom: 1px solid #fd4b2e;
+}
+
+.header__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.logo__img {
+    width: 27%;
+}
+
+.nav__item ul {
+    display: flex;
+}
+
+.nav__item ul li {
+    padding: 2rem;
+}
+
+.nav__item ul li a {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+    color: #020000;
+}
+
+
+/*=============== HEADER ===============*/
+
+section#home {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    padding: 0 7rem;
+}
+
+.home__contact h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 5rem;
+    color: #888892;
+}
+
+.home__contact h1 span {
+    color: #e7620f;
+}
+
+.home__contact h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+a.order-button {
+    background-image: linear-gradient( 45deg, #fe4e30, #fc8f49);
+    padding: 1.3rem 2rem;
+    border-radius: 2rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/*=============== ABOUT ===============*/
+
+section#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7rem;
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about__img img {
+    width: 38%;
+    padding-top: 6rem;
+    margin-left: 4rem;
+}
+
+.about__contact {
+    width: 40%;
+}
+
+.about__contact h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 6rem;
+    color: #888892;
+}
+
+.about__contact p {
+    font-weight: 400;
+    line-height: 2rem;
+    margin-bottom: 6rem;
+}
+
+
+/*=============== RECIPES ===============*/
+
+section#recipes {
+    margin: 6rem;
+}
+
+.recipes__text {
+    width: 45.25rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recipe__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+
+img.recipes__img {
+    width: 100%;
+    border-radius: 1rem;
+    height: 20.063rem;
+}
+
+.recipes__card {
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+}
+
+.recipes__text h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #888892;
+    line-height: 6rem;
+}
+
+.recipes__text p {
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.recipes__card h2 {
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 3rem;
+    margin: 1rem 0;
+}
+
+.recipes__card p {
+    font-weight: 200;
+    line-height: 1.9rem;
+}
+
+
+/*=============== Ingredients ===============*/
+
+#Ingredients {
+    background-image: url(../images/food/bg-section-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.ingredi__contact {
+    padding: 10rem 0;
+}
+
+.ingredi__contact h3 {
+    font-size: 4rem;
+    font-weight: 400;
+    color: #f96102;
+}
+
+.ingredi__contact h2 {
+    font-size: 7.125rem;
+    font-weight: 600;
+    line-height: 7rem;
+    color: #f8f8f9;
+    margin-top: 2rem;
+}
+
+
+/*=============== footer ===============*/
+
+footer#footer {
+    padding: 3rem 0;
+    background: black;
+    text-align: center;
+}
+
+.footer__contact h2 {
+    color: #888892;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 6rem;
+}
+
+.footer__contact h2 span {
+    color: #e7620f;
+}
+
+.footer__contact p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 4rem;
+}
