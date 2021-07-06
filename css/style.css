@@ -75,7 +75,6 @@ img.logo__img {
 section#home {
     display: flex;
     justify-content: space-between;
-    /* height: 100vh; */
     align-items: center;
     padding: 5.563rem 7rem;
 }
